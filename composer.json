@@ -1,0 +1,20 @@
+{
+	"name": "burnbright/silverstripe-anchorfield",
+	"description": "Form field for creating anchor links easily. Beats using LiteralField.",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe","form","field","anchor","link"],
+	"require": {
+		"silverstripe/framework": "~3.1"
+	},
+	"extra": {
+		"installer-name": "anchorfield"
+	},
+	"authors": [
+		{
+			"name": "Jeremy Shipman",
+			"homepage": "https://github.com/jedateach",
+			"role": "Developer"
+		}
+	]
+}
