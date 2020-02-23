@@ -1,7 +1,7 @@
 {
 	"name": "burnbright/silverstripe-anchorfield",
 	"description": "Form field for creating anchor links easily. Beats using LiteralField.",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe","form","field","anchor","link"],
 	"require": {
