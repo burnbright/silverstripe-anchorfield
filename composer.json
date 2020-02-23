@@ -5,7 +5,7 @@
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe","form","field","anchor","link"],
 	"require": {
-		"silverstripe/framework": "~3.1"
+		"silverstripe/framework": "^4.0"
 	},
 	"extra": {
 		"installer-name": "anchorfield"
