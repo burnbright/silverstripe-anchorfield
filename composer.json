@@ -16,5 +16,10 @@
 			"homepage": "https://github.com/jedateach",
 			"role": "Developer"
 		}
-	]
+	],
+	"autoload": {
+		"psr-4": {
+			"BurnBright\\AnchorField\\": "src/"
+		}
+	}
 }
