@@ -8,8 +8,11 @@ The `AnchorField.ss` template can be overridden for easy styling / customisation
 ## Example Usage
 
 ```php
-    $actions = new FieldList(
-        new AnchorField("cancel", "Cancel", $this->Link()),
-        new FormAction("submit", "Submit")
+
+	use BurnBright\AnchorField\AnchorField;
+
+    $actions = FieldList::create(
+        AnchorField::create("cancel", "Cancel", $this->Link()),
+        FormAction::create("submit", "Submit")
     );
 ```
